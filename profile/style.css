@@ -1,0 +1,32 @@
+ /* Write your styles here */
+ *{
+    margin:0px;
+    padding:0px;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+#profNavbar{
+    display:flex;
+    padding:1rem 2rem;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: rgba(238, 235, 232, 0.877);
+}
+.nameInput{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:10px 30px;
+
+}
+.nameInput p{
+    font-size: 30px;
+    font-weight: 800;
+    align-self: center;
+}
